@@ -1,4 +1,4 @@
-package org.iesfm.dto;
+package org.iesfm.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

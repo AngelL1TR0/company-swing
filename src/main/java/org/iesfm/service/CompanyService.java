@@ -1,7 +1,7 @@
 package org.iesfm.service;
 
-import org.iesfm.dto.Department;
-import org.iesfm.dto.Employee;
+import org.iesfm.entity.Department;
+import org.iesfm.entity.Employee;
 
 import java.util.HashMap;
 import java.util.LinkedList;
