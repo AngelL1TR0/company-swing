@@ -60,14 +60,6 @@ public class DepartmentTableModel extends AbstractTableModel {
         }
     }
 
-    public void add(Department department) {
-        departments.add(department);
-    }
-
-    public void delete(int selectedRow) {
-        departments.remove(selectedRow);
-    }
-
     public Department getDepartment(int index) {
         return departments.get(index);
     }

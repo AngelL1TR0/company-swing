@@ -65,14 +65,6 @@ public class EmployeesTableModel extends AbstractTableModel {
                 throw new RuntimeException("No existe la columna " + columnIndex);
         }
     }
-    public void add(Employee employee) {
-        employees.add(employee);
-    }
-
-    public void delete(int selectedRow) {
-        employees.remove(selectedRow);
-    }
-
     public Employee getEmployee(int index) {
         return employees.get(index);
     }
