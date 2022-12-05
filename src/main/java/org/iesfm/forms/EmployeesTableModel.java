@@ -73,7 +73,7 @@ public class EmployeesTableModel extends AbstractTableModel {
         employees.remove(selectedRow);
     }
 
-    public Employee getStudent(int index) {
+    public Employee getEmployee(int index) {
         return employees.get(index);
     }
 }
